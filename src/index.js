@@ -1,5 +1,5 @@
-import oneModule from "./modules/one";
+import cart from "./modules/cart";
 import twoModule from "./modules/two";
 
-oneModule();
+cart();
 twoModule();
