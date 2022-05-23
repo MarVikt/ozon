@@ -1,5 +1,9 @@
+import loadGoods from "./modules/loadGoods";
 import cart from "./modules/cart";
-import twoModule from "./modules/two";
+import searchGoods from "./modules/searchGoods";
+import catalog from "./modules/catalog";
 
+loadGoods();
 cart();
-twoModule();
+searchGoods();
+catalog();
